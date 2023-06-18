@@ -1,0 +1,39 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+}
+
+.text-about {
+  max-width: 65%;
+}
+
+.about-image {
+  display: none;
+  padding-left: 30px;
+}
+
+.profile-picture {
+  width: 220px;
+  height: 264px;
+}
+
+.title {
+    padding-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+  .about-image {
+    display: block;
+  }
+}

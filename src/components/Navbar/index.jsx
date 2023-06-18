@@ -7,17 +7,19 @@ const Navbar = () => {
         <div className="home">
           <div className="logo">
             <a href="/">
-              <p>Danilo Santos</p>
+              <p className="logo-text">Danilo Santos</p>
             </a>
           </div>
-          <h2>Desenvolvedor Fullstack</h2>
+          <h2>Desenvolvedor</h2>
         </div>
-
-        <div className="nav-links">
-          <a href="/">Sobre</a>
-          <a href="/">Projetos</a>
-          <a href="/">Contato</a>
-        </div>
+        <ul className="nav-links">
+          <li>
+            <a href="/">Sobre</a>
+          </li>
+          <li>
+            <a href="/">Projetos</a>
+          </li>
+        </ul>
       </div>
     </div>
   );
