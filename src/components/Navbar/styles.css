@@ -50,8 +50,10 @@ h2 {
   list-style: none;
 }
 
+.logo:hover,
 a:hover {
   color: #dfff00;
+  border-color: #dfff00;
 }
 
 @media (min-width: 576px) {
