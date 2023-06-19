@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./styles.css";
 
 const Navbar = () => {
@@ -13,15 +13,21 @@ const Navbar = () => {
           </div>
           <h2>Desenvolvedor</h2>
         </div>
-        <ul className="nav-links">
+        <ul className="main-menu">
           <li>
-          <Link to="/">Sobre</Link>
+            <NavLink to="/" activeClassName="active">
+              Sobre
+            </NavLink>
           </li>
           <li>
-            <Link to="/projects">Projetos</Link>
+            <NavLink to="/projects" activeClassName="active">
+              Projetos
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact">Contato</Link>
+            <NavLink to="/contact" activeClassName="active">
+              Contato
+            </NavLink>
           </li>
         </ul>
       </div>

@@ -40,7 +40,7 @@
   text-align: center;
 }
 
-.nav-links {
+.main-menu {
   font-size: 0.9em;
   width: 13em;
   display: flex;
@@ -51,9 +51,14 @@
 }
 
 .logo:hover,
-a:hover {
+.main-menu a:hover {
   color: #dfff00;
   border-color: #dfff00;
+}
+
+.active {
+  color: #dfff00;
+  border-bottom: 1px solid #dfff00;
 }
 
 @media (min-width: 576px) {
@@ -61,7 +66,7 @@ a:hover {
     font-size: 17px;
   }
 
-  .nav-links {
+  .main-menu {
     flex-direction: row;
   }
 }
