@@ -10,11 +10,11 @@
   max-width: 1200px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 40px 20px;
+  justify-content: space-around;
+  padding: 40px 20px 10px 20px;
 }
 
-.text-about {
+.description {
   max-width: 65%;
 }
 
@@ -29,11 +29,39 @@
 }
 
 .title {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.other-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.education {
+  width: 65%;
+}
+
+.contact {
+  display: none;
+}
+
+.language {
+  padding-left: 30px;
+  width: 220px;
 }
 
 @media (min-width: 576px) {
   .about-image {
     display: block;
+  }
+
+  .other-content {
+    flex-direction: row;
+    align-items: normal;
   }
 }
