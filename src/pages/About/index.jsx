@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-content">
           <div className="description">
-            <h1 className="title">Olá eu sou o Danilo</h1>
+            <h1 className="title">Oi, eu sou o Danilo!</h1>
             <p>
               Estudo programação desde 2019. Gosto de adquirir conhecimento de
               diversas áreas de TI. Em 2020 me formei no curso técnico de
@@ -22,30 +22,51 @@ const About = () => {
 
         <div className="other-content">
           <div className="education">
-            <h1>Formação</h1>
+            <h2>Formação</h2>
             <br />
-            <p>Graduação em analise e desenvolvimento de sistemas</p>
-            <p>Unicesumar - Pinhais, PR</p>
-            <p>2022 - Atual</p>
+            <div className="formation">
+              <div className="line"></div>
+              <div className="boll"></div>
+              <div className="formation-text">
+                <h3>Graduação em analise e desenvolvimento de sistemas</h3>
+                <h4>Unicesumar - Pinhais, PR</h4>
+                <h5>Out 2022 - Atual</h5>
+              </div>
+            </div>
             <br />
-            <p>Técnico em desenvolvimento de Sistemas</p>
-            <p>Senai - Pinhais, PR</p>
-            <p>2019 - 2020</p>
+            <div className="formation">
+              <div className="line"></div>
+              <div className="boll"></div>
+              <div className="formation-text">
+                <h3>Técnico em desenvolvimento de Sistemas</h3>
+                <h4>Senai - Pinhais, PR</h4>
+                <h5>Jun 2019 - Dez 2020</h5>
+              </div>
+            </div>
             <br />
-            <h1>Cursos</h1>
-            <p>
-              Java COMPLETO 2023 Programação Orientada a Objetos +Projetos Udemy
-            </p>
-            <p>2023</p>
+            <h2>Cursos</h2>
+            <br />
+            <div className="formation">
+              <div className="line"></div>
+              <div className="boll"></div>
+              <div className="formation-text">
+                <h3>
+                  Java COMPLETO 2023 Programação Orientada a Objetos +Projetos
+                </h3>
+                <h4>Udemy</h4>
+                <h5>Abril 2023</h5>
+              </div>
+            </div>
+            <br />
           </div>
           <div className="language">
-            <h1>Idiomas</h1>
+            <h2>Idiomas</h2>
             <br />
-            <p>Português</p>
-            <p>Nativo</p>
+            <h3>Português</h3>
+            <h4>Nativo</h4>
             <br />
-            <p>Inglês</p>
-            <p>Intermediário</p>
+            <h3>Inglês</h3>
+            <h4>Intermediário</h4>
           </div>
         </div>
       </div>

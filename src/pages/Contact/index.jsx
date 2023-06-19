@@ -39,7 +39,7 @@ const Contact = () => {
           </a>
           <div className="or">
             <div className="or-line"></div>
-            <h3>Ou</h3>
+            <p>Ou</p>
             <div className="or-line"></div>
           </div>
 

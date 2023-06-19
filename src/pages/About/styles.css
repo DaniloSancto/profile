@@ -3,6 +3,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
+  margin: 0 15px;
+}
+
+.about-container h1 {
+  font-weight: 500;
+  font-size: 2.7em;
+}
+
+.about-container h2 {
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.about-container h3 {
+  font-size: 1.1em;
+}
+
+.about-container h4 {
+  font-size: 1em;
+  color: #999999;
+}
+
+.about-container h5 {
+  font-size: 0.9em;
+  color: #ddff00;
+}
+
+.about-container p {
+  font-size: 1em;
 }
 
 .about-content {
@@ -11,11 +41,11 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 40px 20px 10px 20px;
+  margin-top: 40px;
 }
 
 .description {
-  max-width: 65%;
+  max-width: 90%;
 }
 
 .about-image {
@@ -42,8 +72,42 @@
   margin-top: 20px;
 }
 
+.formation {
+  flex: 1px 0 0px;
+  width: 1px;
+  position: relative;
+  width: 100%;
+}
+
+.formation-text {
+  padding-left: 20px;
+}
+
+.line {
+  background-color: #fff;
+  bottom: 0;
+  height: 90%;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+
+.boll {
+  background-color: #ddff00;
+  border-radius: 40px;
+  height: 16px;
+  left: calc(0.00000000000002% - 16px / 2);
+  position: absolute;
+  top: 5px;
+  width: 16px;
+}
+
+.other-content h3 {
+  font-weight: 400;
+}
+
 .education {
-  width: 65%;
+  width: 90%;
 }
 
 .contact {
@@ -51,11 +115,14 @@
 }
 
 .language {
-  padding-left: 30px;
-  width: 220px;
+  width: 90%;
 }
 
 @media (min-width: 576px) {
+  .about-container {
+    font-size: 16px;
+  }
+
   .about-image {
     display: block;
   }
@@ -63,5 +130,24 @@
   .other-content {
     flex-direction: row;
     align-items: normal;
+  }
+
+  .description {
+    max-width: 65%;
+  }
+
+  .education {
+    width: 65%;
+  }
+  .language {
+    width: 18.3%;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    font-size: 16px;
+    margin: 0;
   }
 }
