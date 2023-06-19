@@ -1,9 +1,14 @@
-import './styles.css'
+import Project from "../../components/Project";
+import "./styles.css";
 
 const Projects = () => {
-    return (
-        <h1>PROJECTS</h1>
-    )
-}
+  const number = 22 + 4;
+
+  return (
+    <>
+      <Project text={number} />
+    </>
+  );
+};
 
 export default Projects;
