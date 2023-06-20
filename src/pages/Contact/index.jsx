@@ -23,7 +23,7 @@ const Contact = () => {
             target="_blank"
           >
             <img src={linkedin} alt="linkedin" />
-            <p>vá para o Linkedin</p>
+            <p>Ir para o Linkedin</p>
           </a>
           <p className="contact-txt">
             Se quiser dar uma olhada no que estou desenvolvendo, geralmente
@@ -35,7 +35,7 @@ const Contact = () => {
             target="_blank"
           >
             <img src={github} alt="github" />
-            <p>vá para o Github</p>
+            <p>Ir para o Github</p>
           </a>
           <div className="or">
             <div className="or-line"></div>

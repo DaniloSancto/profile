@@ -10,6 +10,7 @@
   border: 1px solid #111111;
   background-color: #1f1f1f;
   border-radius: 5px;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4);
 }
 
 .project-card h1 {
@@ -18,7 +19,8 @@
 }
 
 .project-card p {
-  font-size: 0.9em;
+  font-size: 0.6em;
+  color: #999999;
   background-color: transparent;
 }
 
@@ -28,7 +30,8 @@
 }
 
 .card-content {
-    background-color: transparent;
+  padding: 5px 0 0 15px;
+  background-color: transparent;
   width: 250px;
-  height: 50px;
+  height: 45px;
 }

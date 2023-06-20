@@ -6,7 +6,7 @@
 }
 
 .contact-container h1 {
-  padding: 20px 0;
+  padding: 56px 0 32px 0;
   font-weight: 400;
   font-size: 40px;
 }
@@ -34,6 +34,7 @@
 .contact-images img {
   width: 38.4px;
   height: 38.4px;
+  padding-right: 10px;
   background-color: transparent;
 }
 
@@ -45,7 +46,7 @@
 
 .btn {
   margin-bottom: 20px;
-  padding: 5px 15px;
+  padding: 5px 10px;
   width: 200px;
   display: flex;
   align-items: center;

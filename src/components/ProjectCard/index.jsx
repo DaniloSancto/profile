@@ -5,7 +5,7 @@ const Project = ({ name, description, pageUrl, imageUrl }) => {
   return (
     <Link to={`/projects/${pageUrl}`}>
       <div className="project-card">
-        <img src={imageUrl} alt="" />
+        <img src={imageUrl} alt={pageUrl} />
         <div className="card-content">
           <h1>{name}</h1>
           <p>{description}</p>

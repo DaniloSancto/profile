@@ -9,10 +9,17 @@ const About = () => {
           <div className="description">
             <h1 className="title">Oi, eu sou o Danilo!</h1>
             <p>
-              Estudo programação desde 2019. Gosto de adquirir conhecimento de
-              diversas áreas de TI. Em 2020 me formei no curso técnico de
-              informática do SENAI. Tenho alguns projetos de estudo realizado em
-              cursos no meu github.
+              Em 2019, comecei o curso de Desenvolvimento de Sistemas no SENAI,
+              onde aprendi mais sobre o mundo da programação e me apaixonei pela
+              área.
+            </p>
+            <br />
+            <p>
+              Atualmente, estou focado em Java, no ecossistema Spring, também
+              estudo outras tecnologias como PostgreSQL, Git, HTML/CSS,
+              JavaScript, ReactJS. Estou animado para explorar oportunidades de
+              trabalho na área de desenvolvimento de sistemas e colaborar com
+              equipes criativas e motivadas.
             </p>
           </div>
           <div className="about-image">
@@ -43,6 +50,7 @@ const About = () => {
                 <h5>Jun 2019 - Dez 2020</h5>
               </div>
             </div>
+            <br />
             <br />
             <h2>Cursos</h2>
             <br />
