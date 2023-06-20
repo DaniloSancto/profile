@@ -1,0 +1,35 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+      grid-template-columns: auto auto auto;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .wrapper {
+      grid-template-columns: auto auto auto auto;
+    }
+  }
