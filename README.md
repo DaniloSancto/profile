@@ -1,2 +1,2 @@
 Portifólio:
-https://danilosantos-portifolio.netlify.app
+https://www.danilosantos.dev
